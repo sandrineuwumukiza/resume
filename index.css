@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(82, 79, 79);
+}
+#container{
+    background-color: rgba(84, 80, 80, 0.252);  
+    display: flex;
+    /* transform: translate(3%,20%); */
+    padding: 10px 10px;
+    width: 100%;
+}
+.navbar {
+    background-color: rgba(128, 233, 233, 0.202);
+    width: 20%;
+    padding: 20px 20px;
+    color: white;
+    border-radius: 10px;
+ }
+.navbar img{
+   border-radius: 50%;
+   height: 150px;
+   width: 130px;
+}
+.navbar h2{
+   padding: 10px 10px;
+   text-decoration-line: underline;
+   text-decoration-color:black ;
+  text-underline-offset: 10px;
+ }
+ .navbar h3{
+    padding: 10px 10px;
+    
+  }
+  .social{
+    padding-top: 20px;
+    
+  }
+  .location{
+    font-size: 1.5rem;
+    margin-left: 10px;
+   margin-top: 10px;
+    /* padding: 10px 20px; */
+    /* position: absolute; */
+  }
+  .mail{
+    font-size: 1.5rem;
+    margin-left: 10px;
+   margin-top: 5px;
+    /* padding: 10px 20px; */
+    /* position: absolute; */
+  }
+  .all{
+    background-color: white;
+    padding: 10px 10px;
+    width: 40%;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow:inset -5px -5px  rgba(0, 0, 0, 0.23);
+  }
+  .all1 ul{
+    
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    /* padding: 10px 10px; */
+  }
+  .all1 li{
+    
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    /* padding: 10px 10px; */
+  }
+  .all1{
+    background-color: white;
+    padding: 10px 20px;
+    padding-top:  50px;
+    width: 40%;
+   /* border: 50px; */
+   border-left: 20px;
+   padding-right: 50px;
+   box-shadow:inset -5px -5px  rgba(0, 0, 0, 0);
+   /* border-color: black; */
+   border-radius: 10px;
+  }
+  .all1 ul{
+    
+    padding: 20px 30px;
+  }
+  .all1 h2{
+    text-underline-offset:10px ;
+    text-decoration-line: underline;
+   text-decoration-color:black ;
+  }
+  .all1 ol{
+    /* background-color: rgb(222, 165, 165); */
+    padding-left: 120px ;
+  }
+  .all2{
+    padding: 40px 10px; 
+
+  }
+  .all2 ol{
+   padding-left: 10px; 
+   font-size: 0.9rem;
+
+  }
+  .bxl-facebook{
+   font-size: 2rem;
+
+  }
+  .bxl-linkedin{
+    font-size: 2rem;
+ 
+   }
+   .bxl-github{
+    font-size: 2rem;
+ 
+   }
+  .all2 h3{
+    padding: 20px 10px;
+    line-height: 1.8rem; 
+  }
+  .all2 h4{
+    padding: 20px 10px;
+    font-size: 1.2rem; 
+  }
+  .all span{
+    padding-left: 50px;
+    position: absolute;
+  }
+  .education{
+    padding: 40px 10px;
+    
+  }
+  
+  .education h2{
+    padding-bottom: 20px;
+    text-underline-offset:10px ;
+    text-decoration-line: underline;
+   text-decoration-color:black ;
+  }
+  .experience{
+    padding: 40px 10px ;
+  }
+  .experience li{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+   
+  }
+  .experience ul{
+    padding: 10px 20px;
+  }
+  .experience h2{
+    padding-bottom: 30px;
+    text-underline-offset:10px ;
+    text-decoration-line: underline;
+   text-decoration-color:black ;
+  }
+  .education h3{
+    padding: 30px 10px 20px 10px;
+    
+  }
+  .skill{
+    /* background-color: rgb(214, 197, 197); */
+    /* width: 500px;
+    margin: 60px;
+   padding:20px; */
+   /* box-shadow:inset -5px -5px rgba(0, 0, 0, 0.23); */
+   border-radius: 20px;
+  padding-top: 30px;
+  /* margin-top: 500px;
+  margin-left: 380px; */
+  }
+  .skill li{
+    list-style: none;
+    /* font-size: 1rem; */
+  }
+  .skill h1{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .skill h3{
+    font-size: 1rem;
+  }
+  .bar{
+   background-color:black;
+   height: 15px;
+   display: block;
+   border: 1px solid grb(0,0,0,0.3);
+   overflow: hidden;
+   /* box-shadow: 1px,3px rgb(0,0,0,0.12),0 1px 2px rgba(0, 0, 0, 0.24); */
+   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .bar:hover{
+    /* box-shadow: 0 14px rgb(0,0,0,0.12),0 10px 10px rgb(0,0,0,0.22); */
+   }
+  .bar span{
+    background-color:white;
+    height: 20px;
+    float: left;
+    
+   }
+   /* .skill strong{
+    padding-left: 50px;
+   } */
+   /* .matlab{
+    width: 87%;
+   animation: matlab 3s;
+    
+   } */
+   .c{
+    width: 60%;
+   animation: matlab 3s;
+    
+   }
+   .javascript{
+    width: 30%;
+   animation: matlab 3s;
+    
+   }
+   .html{
+    width: 65%;
+   animation: matlab 3s;
+    
+   }
+   .python{
+    width: 20%;
+   animation: matlab 3s;
+    
+   }
+   .css{
+    width: 65%;
+   animation: matlab 3s;
+    
+   }
